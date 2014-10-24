@@ -1,0 +1,11 @@
+com.realsimpleapps.minutesfrommidnight.mfmActivity -> com.realsimpleapps.minutesfrommidnight.mfmActivity:
+    android.widget.TextView tv -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.String getMFM() -> a
+    java.lang.String access$000(com.realsimpleapps.minutesfrommidnight.mfmActivity) -> a
+com.realsimpleapps.minutesfrommidnight.mfmActivity$1 -> com.realsimpleapps.minutesfrommidnight.a:
+    com.realsimpleapps.minutesfrommidnight.mfmActivity this$0 -> a
+    void run() -> run
+com.realsimpleapps.minutesfrommidnight.mfmActivity$1$1 -> com.realsimpleapps.minutesfrommidnight.b:
+    com.realsimpleapps.minutesfrommidnight.mfmActivity$1 this$1 -> a
+    void run() -> run

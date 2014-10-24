@@ -1,0 +1,441 @@
+_____________________________________________________________________
++ Program class: com/realsimpleapps/minutesfrommidnight/mfmActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.realsimpleapps.minutesfrommidnight.mfmActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 85):
+  + Integer [2130903040]
+  + Integer [2131034112]
+  + String [%02d]
+  + String [:]
+  + Class [android/app/Activity]
+  + Class [android/widget/TextView]
+  + Class [com/realsimpleapps/minutesfrommidnight/a]
+  + Class [com/realsimpleapps/minutesfrommidnight/mfmActivity]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [java/lang/Thread]
+  + Class [java/util/Calendar]
+  + Fieldref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a Landroid/widget/TextView;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/a.<init> (Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)V]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a ()Ljava/lang/String;]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.setContentView (I)V]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/lang/String.format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+  + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/Thread.start ()V]
+  + Methodref [java/util/Calendar.get (I)I]
+  + Methodref [java/util/Calendar.getInstance ()Ljava/util/Calendar;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+  + NameAndType [get (I)I]
+  + NameAndType [getInstance ()Ljava/util/Calendar;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [start ()V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + NameAndType [valueOf (I)Ljava/lang/String;]
+  + Utf8 [%02d]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/util/Calendar;]
+  + Utf8 [()V]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)Ljava/lang/String;]
+  + Utf8 [(Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [:]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/a]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/mfmActivity]
+  + Utf8 [findViewById]
+  + Utf8 [format]
+  + Utf8 [get]
+  + Utf8 [getInstance]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [java/util/Calendar]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [start]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+
+Fields (count = 1):
+  + Field:        a Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView a
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public mfmActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #16
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 38, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #17
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #21
+        + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] ldc #2
+        + Integer [2131034112]
+      [15] invokevirtual #20
+        + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.findViewById (I)Landroid/view/View;]
+      [18] checkcast #6
+        + Class [android/widget/TextView]
+      [21] putfield #15
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a Landroid/widget/TextView;]
+      [24] new #7
+        + Class [com/realsimpleapps/minutesfrommidnight/a]
+      [27] dup
+      [28] aload_0 v0
+      [29] invokespecial #18
+        + Methodref [com/realsimpleapps/minutesfrommidnight/a.<init> (Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)V]
+      [32] astore_2 v2
+      [33] aload_2 v2
+      [34] invokevirtual #28
+        + Methodref [java/lang/Thread.start ()V]
+      [37] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 86, locals = 8, stack = 5):
+      [0] invokestatic #30
+        + Methodref [java/util/Calendar.getInstance ()Ljava/util/Calendar;]
+      [3] astore_1 v1
+      [4] aload_1 v1
+      [5] bipush 11
+      [7] invokevirtual #29
+        + Methodref [java/util/Calendar.get (I)I]
+      [10] istore_2 v2
+      [11] aload_1 v1
+      [12] bipush 12
+      [14] invokevirtual #29
+        + Methodref [java/util/Calendar.get (I)I]
+      [17] istore_3 v3
+      [18] aload_1 v1
+      [19] bipush 13
+      [21] invokevirtual #29
+        + Methodref [java/util/Calendar.get (I)I]
+      [24] istore v4
+      [26] iload_2 v2
+      [27] bipush 60
+      [29] imul
+      [30] iload_3 v3
+      [31] iadd
+      [32] istore v5
+      [34] iload v5
+      [36] invokestatic #24
+        + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+      [39] astore v6
+      [41] ldc #3
+        + String [%02d]
+      [43] iconst_1
+      [44] anewarray #10
+        + Class [java/lang/Object]
+      [47] dup
+      [48] iconst_0
+      [49] iload v4
+      [51] invokestatic #22
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [54] aastore
+      [55] invokestatic #23
+        + Methodref [java/lang/String.format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+      [58] astore v7
+      [60] new #12
+        + Class [java/lang/StringBuilder]
+      [63] dup
+      [64] invokespecial #25
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [67] aload v6
+      [69] invokevirtual #26
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [72] ldc #4
+        + String [:]
+      [74] invokevirtual #26
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [77] aload v7
+      [79] invokevirtual #26
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [82] invokevirtual #27
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [85] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)Ljava/lang/String;
+    Access flags: 0x1008
+      = static synthetic java.lang.String a(com.realsimpleapps.minutesfrommidnight.mfmActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a ()Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/realsimpleapps/minutesfrommidnight/a
+  Superclass:    java/lang/Thread
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.realsimpleapps.minutesfrommidnight.a extends java.lang.Thread
+
+Interfaces (count = 0):
+
+Constant Pool (count = 40):
+  + Class [com/realsimpleapps/minutesfrommidnight/a]
+  + Class [com/realsimpleapps/minutesfrommidnight/b]
+  + Class [com/realsimpleapps/minutesfrommidnight/mfmActivity]
+  + Class [java/lang/InterruptedException]
+  + Class [java/lang/Thread]
+  + Long [1000]
+  + Fieldref [com/realsimpleapps/minutesfrommidnight/a.a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/a.isInterrupted ()Z]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/b.<init> (Lcom/realsimpleapps/minutesfrommidnight/a;)V]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.runOnUiThread (Ljava/lang/Runnable;)V]
+  + Methodref [java/lang/Thread.<init> ()V]
+  + Methodref [java/lang/Thread.sleep (J)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/realsimpleapps/minutesfrommidnight/a;)V]
+  + NameAndType [a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+  + NameAndType [isInterrupted ()Z]
+  + NameAndType [runOnUiThread (Ljava/lang/Runnable;)V]
+  + NameAndType [sleep (J)V]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(J)V]
+  + Utf8 [(Lcom/realsimpleapps/minutesfrommidnight/a;)V]
+  + Utf8 [(Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)V]
+  + Utf8 [(Ljava/lang/Runnable;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/a]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/b]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/mfmActivity]
+  + Utf8 [isInterrupted]
+  + Utf8 [java/lang/InterruptedException]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [run]
+  + Utf8 [runOnUiThread]
+  + Utf8 [sleep]
+
+Fields (count = 1):
+  + Field:        a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;
+    Access flags: 0x1010
+      = final synthetic com.realsimpleapps.minutesfrommidnight.mfmActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)V
+    Access flags: 0x0
+      = a(com.realsimpleapps.minutesfrommidnight.mfmActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #8
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/a.a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #12
+        + Methodref [java/lang/Thread.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 36, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] invokevirtual #9
+        + Methodref [com/realsimpleapps/minutesfrommidnight/a.isInterrupted ()Z]
+      [4] ifne +27 (target=31)
+      [7] ldc2_w #6
+        + Long [1000]
+      [10] invokestatic #13
+        + Methodref [java/lang/Thread.sleep (J)V]
+      [13] aload_0 v0
+      [14] getfield #8
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/a.a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+      [17] new #2
+        + Class [com/realsimpleapps/minutesfrommidnight/b]
+      [20] dup
+      [21] aload_0 v0
+      [22] invokespecial #10
+        + Methodref [com/realsimpleapps/minutesfrommidnight/b.<init> (Lcom/realsimpleapps/minutesfrommidnight/a;)V]
+      [25] invokevirtual #11
+        + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.runOnUiThread (Ljava/lang/Runnable;)V]
+      [28] goto -28 (target=0)
+      [31] goto +4 (target=35)
+      [34] astore_1 v1
+      [35] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 31: 34):
+      + Class [java/lang/InterruptedException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [0] Var: ..., Stack: (empty)
+        - [31] Var: ..., Stack: (empty)
+        - [34] Var: ..., Stack: [a:java/lang/InterruptedException]
+        - [35] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/realsimpleapps/minutesfrommidnight/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.realsimpleapps.minutesfrommidnight.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/Runnable]
+
+Constant Pool (count = 37):
+  + Class [android/widget/TextView]
+  + Class [com/realsimpleapps/minutesfrommidnight/a]
+  + Class [com/realsimpleapps/minutesfrommidnight/b]
+  + Class [com/realsimpleapps/minutesfrommidnight/mfmActivity]
+  + Class [java/lang/Object]
+  + Class [java/lang/Runnable]
+  + Fieldref [com/realsimpleapps/minutesfrommidnight/a.a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+  + Fieldref [com/realsimpleapps/minutesfrommidnight/b.a Lcom/realsimpleapps/minutesfrommidnight/a;]
+  + Fieldref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a Landroid/widget/TextView;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a (Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)Ljava/lang/String;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)Ljava/lang/String;]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [a Lcom/realsimpleapps/minutesfrommidnight/a;]
+  + NameAndType [a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()V]
+  + Utf8 [(Lcom/realsimpleapps/minutesfrommidnight/a;)V]
+  + Utf8 [(Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lcom/realsimpleapps/minutesfrommidnight/a;]
+  + Utf8 [Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+  + Utf8 [a]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/a]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/b]
+  + Utf8 [com/realsimpleapps/minutesfrommidnight/mfmActivity]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [run]
+  + Utf8 [setText]
+
+Fields (count = 1):
+  + Field:        a Lcom/realsimpleapps/minutesfrommidnight/a;
+    Access flags: 0x1010
+      = final synthetic com.realsimpleapps.minutesfrommidnight.a a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/realsimpleapps/minutesfrommidnight/a;)V
+    Access flags: 0x0
+      = b(com.realsimpleapps.minutesfrommidnight.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #8
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/b.a Lcom/realsimpleapps/minutesfrommidnight/a;]
+      [5] aload_0 v0
+      [6] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #8
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/b.a Lcom/realsimpleapps/minutesfrommidnight/a;]
+      [4] getfield #7
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/a.a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+      [7] invokestatic #11
+        + Methodref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a (Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;)Ljava/lang/String;]
+      [10] astore_1 v1
+      [11] aload_0 v0
+      [12] getfield #8
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/b.a Lcom/realsimpleapps/minutesfrommidnight/a;]
+      [15] getfield #7
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/a.a Lcom/realsimpleapps/minutesfrommidnight/mfmActivity;]
+      [18] getfield #9
+        + Fieldref [com/realsimpleapps/minutesfrommidnight/mfmActivity.a Landroid/widget/TextView;]
+      [21] aload_1 v1
+      [22] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [25] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

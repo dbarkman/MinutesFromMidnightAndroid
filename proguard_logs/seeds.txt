@@ -1,0 +1,6 @@
+com.realsimpleapps.minutesfrommidnight.R$drawable: int ic_launcher
+com.realsimpleapps.minutesfrommidnight.R$id: int mfmtv
+com.realsimpleapps.minutesfrommidnight.R$layout: int main
+com.realsimpleapps.minutesfrommidnight.R$string: int app_name
+com.realsimpleapps.minutesfrommidnight.mfmActivity
+com.realsimpleapps.minutesfrommidnight.mfmActivity: mfmActivity()

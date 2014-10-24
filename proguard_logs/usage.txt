@@ -1,0 +1,7 @@
+com.realsimpleapps.minutesfrommidnight.BuildConfig
+com.realsimpleapps.minutesfrommidnight.R
+com.realsimpleapps.minutesfrommidnight.R$attr
+com.realsimpleapps.minutesfrommidnight.R$drawable
+com.realsimpleapps.minutesfrommidnight.R$id
+com.realsimpleapps.minutesfrommidnight.R$layout
+com.realsimpleapps.minutesfrommidnight.R$string
